@@ -61,7 +61,7 @@ rt-agentic-ai-cert-week2/
 4. **Run the examples:**
    ```bash
    cd code
-   python lesson_1_and_2.py
+   python lesson_1a_and_1b.py
    ```
    **Customize your experiments:** Edit the `prompt_cfg_key` variable in `lesson_1_and_2.py` (near the bottom of the script) to test different prompt configurations (e.g., `summarization_prompt_cfg1` through `summarization_prompt_cfg6`). You can also create new configurations in `config/prompt_config.yaml` to experiment with your own prompt designs.
 
