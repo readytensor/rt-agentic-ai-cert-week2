@@ -1,6 +1,6 @@
 ![AAIDC-wk2-l0-free-apis.jpeg](AAIDC-wk2-l0-free-apis.jpeg)
 
- <!-- RT_DIVIDER -->
+<!-- RT_DIVIDER -->
 
 ---
 
@@ -11,7 +11,7 @@
 
 ---
 
- <!-- RT_DIVIDER -->
+<!-- RT_DIVIDER -->
 
 # TL;DR
 
@@ -19,7 +19,7 @@ This lesson shows you how to get started with agentic AI using free LLM options 
 
 ---
 
- <!-- RT_DIVIDER -->
+<!-- RT_DIVIDER -->
 
 # Getting Ready: Free LLM Options for This Course
 
@@ -39,7 +39,7 @@ In this lesson, you’ll learn about two ways to get started without spending an
 
 We’ll walk you through how to set up each of these options and explain the tradeoffs — from speed and quality to installation complexity and system requirements.
 
- <!-- RT_DIVIDER -->
+<!-- RT_DIVIDER -->
 
 :::info{title="Effortless LLM Switching With LangChain"}
 
@@ -49,7 +49,7 @@ LangChain makes switching between providers seamless, whether you're using Groq,
 
 ---
 
- <!-- RT_DIVIDER -->
+<!-- RT_DIVIDER -->
 
 # Option 1: Use a Free Cloud API
 
@@ -66,7 +66,7 @@ Let’s start with Groq.
 
 ---
 
- <!-- RT_DIVIDER -->
+<!-- RT_DIVIDER -->
 
 ## Groq: Fast, Free Access to Open-Source LLMs
 
@@ -78,7 +78,7 @@ You get real-time responses from capable open models — perfect for learning an
 
 ---
 
- <!-- RT_DIVIDER -->
+<!-- RT_DIVIDER -->
 
 ### Advantages of Using Groq
 
@@ -90,7 +90,7 @@ You get real-time responses from capable open models — perfect for learning an
 
 ---
 
- <!-- RT_DIVIDER -->
+<!-- RT_DIVIDER -->
 
 ### How to Set Up and Use Groq
 
@@ -144,30 +144,43 @@ You get real-time responses from capable open models — perfect for learning an
  > Or test something fun like `"Write a haiku about AI agents."`
  
  ---
- 
- <!-- RT_DIVIDER -->
- ## Gemini: Access Google’s LLMs Through a Free Developer Tier
- 
- **Gemini** is Google’s suite of powerful large language models — and you can access them via **Gemini API**, using a developer key that you generate through **Google AI Studio**.
- 
- You don’t need to enter payment information to get started. The API offers a **free tier** designed for testing, development, and learning — making it a great fit for coursework and experimentation.
- 
- > ⚠️ Google’s free tier includes usage limits and rate caps. These are typically generous enough for this course, but they are not meant for production use. If you hit a limit, you can wait for it to reset — or upgrade later if needed.
- 
- ---
- 
- ### Advantages of Using Gemini
- 
- * ✅ **No billing required to start** — generate an API key instantly with your Google account
- * ✅ **Developer-friendly limits** — enough for lessons, prototyping, and experimentation
- * ✅ **Good performance on reasoning and coding tasks**
- * ✅ **Supports multimodal input** (text, images, etc.)
- * ✅ **Works seamlessly with LangChain**
- 
- ---
- 
- ### How to Set Up and Use Gemini
- 
+
+<!-- RT_DIVIDER -->
+
+### Video Walkthrough: Setup and Use Groq’s Free API 🎥
+
+In this video, you’ll learn how to set up Groq’s free API key and load it into your local development environment using both export and `.env` file methods.
+
+By the end of this video, you’ll be ready to run your own LangChain-powered applications using Groq’s Llama 3 models — no billing or cloud configuration needed.
+
+:::youtube[Use Groq’s Free API for Local LLM Projects]{#Y6M8Nehwo0U}
+
+---
+
+<!-- RT_DIVIDER -->
+
+## Gemini: Access Google’s LLMs Through a Free Developer Tier
+
+**Gemini** is Google’s suite of powerful large language models — and you can access them via **Gemini API**, using a developer key that you generate through **Google AI Studio**.
+
+You don’t need to enter payment information to get started. The API offers a **free tier** designed for testing, development, and learning — making it a great fit for coursework and experimentation.
+
+> ⚠️ Google’s free tier includes usage limits and rate caps. These are typically generous enough for this course, but they are not meant for production use. If you hit a limit, you can wait for it to reset — or upgrade later if needed.
+
+---
+
+### Advantages of Using Gemini
+
+- ✅ **No billing required to start** — generate an API key instantly with your Google account
+- ✅ **Developer-friendly limits** — enough for lessons, prototyping, and experimentation
+- ✅ **Good performance on reasoning and coding tasks**
+- ✅ **Supports multimodal input** (text, images, etc.)
+- ✅ **Works seamlessly with LangChain**
+
+---
+
+### How to Set Up and Use Gemini
+
  <h4> Step 1: Create Your API Key </h4>
  
  1. Go to [https://makersuite.google.com](https://makersuite.google.com)
@@ -222,41 +235,51 @@ You get real-time responses from capable open models — perfect for learning an
  > 🧪 Tip: Try switching the prompt to `"Give me a metaphor for vector embeddings"` or `"What's a beginner-friendly explanation of LangChain?"`
  
  ---
- 
- <!-- RT_DIVIDER -->
- 
- # Option 2: Run a Local LLM with Ollama
- 
- Don’t want to depend on cloud APIs at all? **Ollama** lets you run powerful LLMs like **Llama 3**, **Mistral**, and **Code Llama** locally — with no API keys, no rate limits, and no internet required once models are downloaded.
- 
- This is a great option if:
- 
- * You want full control over the models you're using
- * You’re interested in exploring open models
- * You have a machine with enough resources (RAM and GPU)
- 
- > ⚠️ Running local models requires decent hardware — especially if you're using larger models. We recommend starting with smaller variants like `llama3-8b-8192` if you’re unsure.
- 
- ---
- 
- ## Advantages of Using Ollama
- 
- * ✅ **No API calls or rate limits** — everything runs locally
- * ✅ **Fully offline** after initial model download
- * ✅ **Free and open-source** — no subscriptions or tokens needed
- * ✅ **Great for privacy-conscious development and experimentation**
- * ✅ **LangChain-compatible** with minimal setup
- 
- ---
- 
- <!-- RT_DIVIDER -->
- 
- ## What Your System Needs
- 
- Going local with Ollama gives you full control and unlimited usage — but it also demands serious memory. Here’s how to figure out if your hardware can handle it.
- 
- ---
- 
+
+<!-- RT_DIVIDER -->
+
+### Use Google Gemini’s Free API in Your Projects 🎥
+
+In this video, you’ll learn how to create and configure a Gemini API key using Google AI Studio. You’ll integrate the key into your environment (via `.env` file or terminal) and send your first request — all in under 5 minutes.
+
+:::youtube[Use Google Gemini’s Free API in Your Projects]{#-epXsWJbggA}
+
+---
+
+<!-- RT_DIVIDER -->
+
+# Option 2: Run a Local LLM with Ollama
+
+Don’t want to depend on cloud APIs at all? **Ollama** lets you run powerful LLMs like **Llama 3**, **Mistral**, and **Code Llama** locally — with no API keys, no rate limits, and no internet required once models are downloaded.
+
+This is a great option if:
+
+- You want full control over the models you're using
+- You’re interested in exploring open models
+- You have a machine with enough resources (RAM and GPU)
+
+> ⚠️ Running local models requires decent hardware — especially if you're using larger models. We recommend starting with smaller variants like `llama3-8b-8192` if you’re unsure.
+
+---
+
+## Advantages of Using Ollama
+
+- ✅ **No API calls or rate limits** — everything runs locally
+- ✅ **Fully offline** after initial model download
+- ✅ **Free and open-source** — no subscriptions or tokens needed
+- ✅ **Great for privacy-conscious development and experimentation**
+- ✅ **LangChain-compatible** with minimal setup
+
+---
+
+<!-- RT_DIVIDER -->
+
+## What Your System Needs
+
+Going local with Ollama gives you full control and unlimited usage — but it also demands serious memory. Here’s how to figure out if your hardware can handle it.
+
+---
+
  <h3> Memory Rule (Assuming FP32) </h3>
  
  Let’s assume you’re running the model using standard **FP32** precision — that means each parameter (or weight) uses **4 bytes** of memory.
@@ -264,7 +287,7 @@ You get real-time responses from capable open models — perfect for learning an
  > **Memory required (in GB)** =
  > `Model size in billions × 4`
  
- 💡 Here, “model size” refers to the **number of parameters** (also called weights or hyperparameters), typically expressed in billions (e.g., 7B, 13B, 70B).
+ 💡 Here, “model size” refers to the **number of parameters** (also called weights), typically expressed in billions (e.g., 7B, 13B, 70B).
  
  So for example:
  
@@ -349,9 +372,11 @@ You get real-time responses from capable open models — perfect for learning an
  > 🔧 For comparison: An **NVIDIA A100 (40 GB variant)** can run a **13B model in FP16** or a **30B model in Q4**. To run **70B models**, you'd need **multiple high-end GPUs** or advanced memory management.
  
  ---
- <!-- RT_DIVIDER -->
- ## How to Set Up and Use Ollama
- 
+
+<!-- RT_DIVIDER -->
+
+## How to Set Up and Use Ollama
+
  <h3> Step 1: Install Ollama </h3>
  
  Go to [https://ollama.com](https://ollama.com) and download the installer for your system (macOS, Windows, or Linux).
@@ -407,81 +432,82 @@ You get real-time responses from capable open models — perfect for learning an
  > 🧪 Try a fun test prompt like: `"Explain agentic AI like you're a movie trailer narrator."`
  
  ---
- 
- <!-- RT_DIVIDER -->
- 
- # When to Use Which Option
- 
- Not sure which path to pick? Here’s the good news: **they all work** — and you can switch at any time.
- 
- If you want something fast and cloud-hosted, start with **Groq** or **Gemini**. Prefer full control or want to work offline? Try **Ollama**. You’re not locked in — LangChain makes it easy to change providers without rewriting your code.
- 
- |           | **Groq**           | **Gemini**        | **Ollama**            |
- | --------- | ------------------ | ----------------- | --------------------- |
- | Setup     | Easy cloud setup   | Easy cloud setup  | Requires install      |
- | Speed     | Very fast          | Fast              | Varies by hardware    |
- | Cost      | Free tier          | Free tier         | Fully free (local)    |
- | Limits    | Rate caps apply    | Rate caps apply   | No rate limits        |
- | Offline?  | ❌                  | ❌                 | ✅                     |
- | Great for | Prototyping, speed | Reasoning, coding | Privacy, full control |
- 
- There’s no single “best” choice — just pick what fits your system and comfort level. You can always switch later.
- 
- ---
- 
- <!-- RT_DIVIDER -->
- 
- 
- :::info{title="Info"}
- # OpenAI's GPT-OSS Models: Now Available for Local Use
- 
- OpenAI recently released open-source versions of their models, known as **GPT-OSS**. These include two models like **gpt-oss-20b** and **gpt-oss-120b** that you can now run locally using Ollama.
- 
- **What makes GPT-OSS special:**
- - **Fully open-weight** - you can download and modify them freely
- - **High performance** - built on OpenAI's latest architecture
- - **Local deployment** - run them on your own hardware with Ollama
- 
- **Using GPT-OSS with Ollama:**
- ```bash
- # Download the 20B model (requires ~16GB RAM)
- ollama pull gpt-oss:20b
- 
- # Or the larger 120B model (requires ~60GB RAM)
- ollama pull gpt-oss:120b
- ```
- 
- **Reality check:** While these models offer cutting-edge capabilities, they require substantial hardware resources that are likely beyond most learning setups. The 20B model needs around 16GB of RAM, and the 120B model needs approximately 60GB - making cloud APIs more practical for most users in this course.
- 
- However, if you have access to high-end workstations or servers, these models represent an exciting opportunity to run OpenAI-quality models completely locally and privately.
- :::
- 
- ---
- 
- <!-- RT_DIVIDER -->
- 
- # Final Notes
- 
- You’re now ready to start your journey building with agentic AI — no cost barriers, no complicated setup.
- 
- As you work through the lessons and projects, any of these LLM options will work. You can stick with one, or try more than one to see what fits your style.
- 
- Most importantly, you can learn and experiment **without burning through tokens or money** — it’s easy to stay within the free tiers or run models locally.
- 
- And if you ever get stuck, we’re just a message away on [Discord](https://discord.com/invite/EsVfxNdUTR).
- 
- ---
- 
- **Next up:** we’ll kick off your hands-on journey with prompt engineering — the core skill behind making LLMs useful, flexible, and goal-driven. Now that your setup is ready, it’s time to start building.
- 
- 
- <!-- RT_DIVIDER -->
- 
- ---
- 
- [🏠 Home - All Lessons](https://app.readytensor.ai/hubs/ready_tensor_certifications)  
- 
- [⬅️ Previous - Agents Vs. Workflows](https://app.readytensor.ai/publications/Xq3L2HSWLPou) 
- [➡️ Next - Building Prompts](https://app.readytensor.ai/publications/36Hu3DC3TLdu) 
- 
- ---
+
+<!-- RT_DIVIDER -->
+
+# When to Use Which Option
+
+Not sure which path to pick? Here’s the good news: **they all work** — and you can switch at any time.
+
+If you want something fast and cloud-hosted, start with **Groq** or **Gemini**. Prefer full control or want to work offline? Try **Ollama**. You’re not locked in — LangChain makes it easy to change providers without rewriting your code.
+
+|           | **Groq**           | **Gemini**        | **Ollama**            |
+| --------- | ------------------ | ----------------- | --------------------- |
+| Setup     | Easy cloud setup   | Easy cloud setup  | Requires install      |
+| Speed     | Very fast          | Fast              | Varies by hardware    |
+| Cost      | Free tier          | Free tier         | Fully free (local)    |
+| Limits    | Rate caps apply    | Rate caps apply   | No rate limits        |
+| Offline?  | ❌                 | ❌                | ✅                    |
+| Great for | Prototyping, speed | Reasoning, coding | Privacy, full control |
+
+There’s no single “best” choice — just pick what fits your system and comfort level. You can always switch later.
+
+---
+
+<!-- RT_DIVIDER -->
+
+:::info{title="Info"}
+
+# OpenAI's GPT-OSS Models: Now Available for Local Use
+
+OpenAI recently released open-source versions of their models, known as **GPT-OSS**. These include two models like **gpt-oss-20b** and **gpt-oss-120b** that you can now run locally using Ollama.
+
+**What makes GPT-OSS special:**
+
+- **Fully open-weight** - you can download and modify them freely
+- **High performance** - built on OpenAI's latest architecture
+- **Local deployment** - run them on your own hardware with Ollama
+
+**Using GPT-OSS with Ollama:**
+
+```bash
+# Download the 20B model (requires ~16GB RAM)
+ollama pull gpt-oss:20b
+
+# Or the larger 120B model (requires ~60GB RAM)
+ollama pull gpt-oss:120b
+```
+
+**Reality check:** While these models offer cutting-edge capabilities, they require substantial hardware resources that are likely beyond most learning setups. The 20B model needs around 16GB of RAM, and the 120B model needs approximately 60GB - making cloud APIs more practical for most users in this course.
+
+However, if you have access to high-end workstations or servers, these models represent an exciting opportunity to run OpenAI-quality models completely locally and privately.
+:::
+
+---
+
+<!-- RT_DIVIDER -->
+
+# Final Notes
+
+You’re now ready to start your journey building with agentic AI — no cost barriers, no complicated setup.
+
+As you work through the lessons and projects, any of these LLM options will work. You can stick with one, or try more than one to see what fits your style.
+
+Most importantly, you can learn and experiment **without burning through tokens or money** — it’s easy to stay within the free tiers or run models locally.
+
+And if you ever get stuck, we’re just a message away on [Discord](https://discord.com/invite/EsVfxNdUTR).
+
+---
+
+**Next up:** we’ll kick off your hands-on journey with prompt engineering — the core skill behind making LLMs useful, flexible, and goal-driven. Now that your setup is ready, it’s time to start building.
+
+<!-- RT_DIVIDER -->
+
+---
+
+[🏠 Home - All Lessons](https://app.readytensor.ai/hubs/ready_tensor_certifications)
+
+[⬅️ Previous - Agents Vs. Workflows](https://app.readytensor.ai/publications/Xq3L2HSWLPou)
+[➡️ Next - Building Prompts](https://app.readytensor.ai/publications/36Hu3DC3TLdu)
+
+---
