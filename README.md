@@ -1,6 +1,6 @@
-# Ready Tensor Agentic AI Certification - Week 2
+# Ready Tensor Agentic AI Certification - Unit 2
 
-This repository contains the lessons, practical code and exercises for **Week 2** of the [Agentic AI Developer Certification Program](https://app.readytensor.ai/publications/HrJ0xWtLzLNt) by Ready Tensor, covering foundational prompt engineering concepts that are essential for building effective agentic AI systems.
+This repository contains the lessons, practical code and exercises for **Unit 2** of the [Agentic AI Developer Certification Program](https://app.readytensor.ai/publications/HrJ0xWtLzLNt) by Ready Tensor, covering foundational prompt engineering concepts that are essential for building effective agentic AI systems.
 
 ## What You'll Learn
 
@@ -50,7 +50,7 @@ Learn why RAG outperforms fine-tuning for most real-world scenarios, and how it 
 ## Repository Structure
 
 ```
-rt-agentic-ai-cert-week2/
+rt-agentic-ai-cert-unit2/
 ├── code/
 │   ├── config/
 │   │   ├── config.yaml          # App config with reasoning strategies
