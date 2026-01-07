@@ -97,6 +97,15 @@ rt-agentic-ai-cert-unit2/
    GROQ_API_KEY=your-groq-key-here
    GOOGLE_API_KEY=your-google-key-here
    ```
+### Troubleshooting API Keys
+
+**Note:** If you encounter persistent API key errors, such as `'api_key' has not been loaded` at startup *or* errors related to `GROQ_API_KEY` during an LLM call, try adding **both** your OpenAI and Groq API keys to your `.env` file.
+
+The script may have an initial check for `OPENAI_API_KEY` while the LLM call itself requires `GROQ_API_KEY`.
+
+Your `.env` file should look like this:
+OPENAI_API_KEY="sk-your-openai-key-here" 
+GROQ_API_KEY="gsk_your-groq-key-here"
 
    **Get your free API key from:**
 
